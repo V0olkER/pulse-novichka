@@ -1,0 +1,12 @@
+{
+  "name": "pulse-novichka",
+  "version": "1.0.0",
+  "description": "Пульс новичка: короткие опросы новых сотрудников в первые 90 дней и задачи руководителям в Битрикс24",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/logic.test.js test/server.test.js"
+  },
+  "engines": { "node": ">=18" }
+}
